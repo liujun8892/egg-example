@@ -66,7 +66,7 @@ module.exports = appInfo => {
       paranoid: true,
       createdAt: 'created_at',
       updatedAt: 'updated_at',
-      // deletedAt: 'deleted_at',
+      deletedAt: 'deleted_at',
       // 所有驼峰命名格式化
       underscored: true,
     },
